@@ -21,7 +21,7 @@ January 19th, 2014
 - Updated to include output parser
 
 --]]
-
+print("Here too")
 for functionName, libraryItem in pairs(RawCharacter) do
 	if type(functionName) ~= "string" then
 		error("[Character] - functionName '"..tostring(functionName).."' a '"..Type.GetType(functionName).."' value should be a string")
@@ -36,5 +36,5 @@ for functionName, libraryItem in pairs(RawCharacter) do
 		end
 	end
 end
-
+print("HEY NOOBIE")
 return safeLib
